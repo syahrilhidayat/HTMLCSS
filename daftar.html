@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dfatar User</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<fieldset>
+	<legend ><H2></H2></legend>
+	<form method="POST" action="prosesdaftar.php">
+		<table class="frmdaftar">
+			<tr>
+				<td><label>Nama User</label></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="nama" autofocus="" class="input" required=""></td>
+			</tr>
+			<tr>
+				<td><label>Ttl_User</label></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="ttl" class="input"></td>
+			</tr>
+			<tr>
+				<td><label>Alamat User</label></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="alamat" class="input"></td>
+			</tr>
+			<tr>
+				<td><label>Saldo Awal</label></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="saldo" class="input"></td>
+			</tr>
+			<tr>
+				<td><label>Rekening User</label></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="rekening" class="input" placeholder="wajib 6 digit"></td>
+			</tr>
+			<tr>
+				<td><label>Pin User</label></td>
+			</tr>
+			<tr>
+				<td><input type="password" name="pin" class="input" placeholder="wajib 6 digit"></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<button type="submit" name="simpan" class="btnsimpan">SIMPAN</button>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<button class="btnkembali"><a href="index.php">KEMBALI</a></button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</fieldset>
+</body>
+</html>
